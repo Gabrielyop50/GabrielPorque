@@ -101,7 +101,7 @@ lolKey = up.LolHumanKey
 //--Kontak
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
-+ 'FN:-·=»‡«=·- GabrielYo -·=»‡«=·-\n' // Nama
++ 'FN:Gabriel Limdo\n' // Nama
 + 'ORG:GabrielBot;\n' // Nama bot
 + 'TEL;type=CELL;type=VOICE;waid=595971356002:+595 917-35602\n' // Nomor bot
 + 'END:VCARD' 
@@ -275,15 +275,16 @@ Bienvenid@ a
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *Nombre* :
 ┠⊷️ *Edad* :
-┠⊷️ *Pais* :
-┠⊷️ *Género* :
+┠⊷️ *Genero* :
+┠⊷️ *Pareja* :
+┠⊷️ *Eri gei* :
 ┗━━━━━━━━━━━━━━━━━━━━
 
-Usa ${prefix}verify para verificarte y poder usar el bot.`
+Usa ${prefix}verify para verificarte y poder usar el bot xd.`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Le falto odio a @${num.split('@')[0]} bye Aborto 👋`
+				teks = `Nunca importo @${num.split('@')[0]} Xao Aborto 👋`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -319,7 +320,7 @@ Usa ${prefix}verify para verificarte y poder usar el bot.`
 			const isCmd = body.startsWith(prefix)
       const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			mess = {
-  wait: '⏳ Espera ',
+  wait: '⏳ Espera que con paciencia se llega al exito ndeah re como dice el dicho era ',
   success: '🎉 Con exito',
   Public: '🛡 Modo privado activado',
   ferr: 'Lo siento ocurrio un error',
@@ -334,7 +335,7 @@ Usa ${prefix}verify para verificarte y poder usar el bot.`
     ownerB: 'Este comando solo puede ser usado por el dueño del bot',
     admin: 'Debes de ser admin para este comando',
     Badmin: 'El bot debe ser admin para este comando',
-    daftarB: `Hola, usa *${prefix}verify* para poder usar el bot`
+    daftarB: `Oal, usa *${prefix}verify* para poder usar el bot`
   }
 }
       const totalchat = await Lxa.chats.all()
@@ -538,7 +539,7 @@ const kapankah = ['Hari Lagi',
 
 
 //--Auto respon
-if(budy.match('Satan')){
+if(budy.match('Gabriel')){
 result = fs.readFileSync(`./temp/stick/emm.webp`)
   Lxa.sendMessage(from, result, sticker, {
 quoted: mek
@@ -844,7 +845,7 @@ case 'ceksaldo':
   uptime = process.uptime()
   teks = `*‣ Nombre del bot* : ${me.name}
   ‣ *Número del bot* : @${me.jid.split('@')[0]}
-  ‣ *Dueño* : Satan
+  ‣ *Dueño* : Gabriel
   ‣ *Prefijo* : ${prefix}
   ‣ *Usuarios bloqueados* : ${blocked.length}
   ‣ *Tiempo activo* : ${kyun(uptime)}
