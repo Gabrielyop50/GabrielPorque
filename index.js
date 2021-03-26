@@ -584,18 +584,18 @@ Hola *${pushname}*
 
 〘 *BOT* 〙
 ‣ Prefijo:「 ${prefix} 」
-‣ Yo soy: ♞☞  𝕊𝓐тคŇ  🐲🏆
+‣ Yo soy:GabrielYo 
 ‣ Tiempo encencido: *${kyun(uptime)}*
 ‣ Modo: *ON*
 ‣ Grupo:  *${groupName}*
 ‣ Número de grupos: *${_registered.length}*
 ‣ Número de chats: *${totalchat.length}*
-‣ Numero del Dueño wa.me/50373488366 
+‣ Numero del Dueño wa.me/595971356002
 
-‣ GRUPO OFICIAL https://chat.whatsapp.com/JyD8Vj11LPu1TofWhWnYMA
+‣ GRUPO OFICIAL https://chat.whatsapp.com/D6dp7LmPiDRJXCW6smryJ8
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃───〘 ♞☞  𝕊𝓐тคŇ  🐲🏆 〙───
+┃───〘 GabrielYo〙───
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Info*
 ┃ _Información del bot_
