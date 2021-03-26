@@ -403,7 +403,7 @@ const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stic
 
 //---Metadata stiker
 			function addMetadata(packname, author) {	
-				if (!packname) packname = '♞☞  𝕊𝓐тคŇ  🐲🏆 Admin'; if (!author) author = 'Bot-Satan';	
+				if (!packname) packname = 'Gabriel Admin'; if (!author) author = 'Bot-Gabriel';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -578,7 +578,7 @@ case '?':
   if (!isRegister) return reply(mess.only.daftarB)
   uptime = process.uptime()
   const Menu = {
-text: `♞☞  𝕊𝓐тคŇ  🐲🏆
+text: `Gabriel
 
 Hola *${pushname}* 
 
@@ -1015,7 +1015,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `GabrielXD`
 })
 
 } catch {
@@ -1039,7 +1039,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `GabrielXD`
 })
 
 } catch {
@@ -1093,7 +1093,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `GabrielXD`
 })
 
 break
@@ -1118,7 +1118,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `GabrielXD`
   })
   
   } catch {
@@ -1148,7 +1148,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `GabrielXD`
   })
   
   } catch {
@@ -1174,7 +1174,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `GabrielXD`
   })
   
   } catch {
@@ -1200,7 +1200,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `GabrielXD`
   })
   
   } catch {
@@ -3183,7 +3183,7 @@ for (let mem of groupMembers) {
   teks += `┃ @${mem.jid.split('@')[0]}\n`
   members_id.push(mem.jid)
 }
-mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────♝😺  Ⓢᗩ𝐭𝓪ᑎ  ♣🐧────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────GabrielXD────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
 break
 
 
