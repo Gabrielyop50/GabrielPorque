@@ -271,7 +271,7 @@ Bienvenid@ a
 *${mdata.subject}*
 ────────────────
 ┏━━━━━━━━━━━━━━━━━━━━
-┃──────〘  *Intro* 〙───────
+┃──────〘 *Intro* 〙───────
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *Le sabes* :
 ┠⊷️ *Edad* :
@@ -281,11 +281,11 @@ Bienvenid@ a
 ┠⊷️ *Sos de solotw* :
 ┗━━━━━━━━━━━━━━━━━━━━
 
-Usa ${prefix}verify para verificarte y poder usar el bot xd.`
+Pone ${prefix}verify para verificarte y poder usar el bot uwuwu.`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Nunca importo @${num.split('@')[0]} Xao Aborto 👋`
+				teks = `Salio un pelotudx @${num.split('@')[0]} Xao Aborto 👋`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -324,19 +324,19 @@ Usa ${prefix}verify para verificarte y poder usar el bot xd.`
   wait: '⏳ Espera que con paciencia se llega al exito ndeah re como dice el dicho era ',
   success: '🎉 Con exito',
   Public: '🛡 Modo privado activado',
-  ferr: 'Lo siento ocurrio un error perdoname xfa',
-  limitend: 'El tiempo se agoto',
+  ferr: 'Perdon ocurrio un error perdoname xfa',
+  limitend: 'El tiempo se acabo',
   error: {
-  stick: 'Intentalo al rato :(',
+  stick: 'Intenta despues :(',
   Iv: 'Error en el link'
   },
   only: {
     group: 'Este comando solo puede ser usado en grupos',
-    ownerG: 'Este comando solo puede ser usado por el dueño del grupo',
-    ownerB: 'Este comando solo puede ser usado por el dueño del bot',
-    admin: 'Debes de ser admin para este comando',
-    Badmin: 'El bot debe ser admin para este comando',
-    daftarB: `Oal, usa *${prefix}verify* para poder usar el bot`
+    ownerG: 'Este comando solo puede ser usado por el dueño del grupo osea Gabriel😎✋🏻',
+    ownerB: 'Este comando solo puede ser usado por el dueño del bot osea Yo🤪',
+    admin: 'Debes ser admin para este comando capo y solo sos un simple integrante😂😂👆🏻',
+    Badmin: 'Apurate y poneme admin si queres usar este comando🤬👏🏻',
+    daftarB: `Oal, pone *${prefix}verify* para poder usar el bot del orto daleee`
   }
 }
       const totalchat = await Lxa.chats.all()
@@ -513,7 +513,7 @@ if (isGroup) {
   try {
 const getmemex = groupMembers.length
 if (getmemex <= memberlimit) {
-  Lxa.sendMessage(from, `Los miembros de este grupo son insuficientes ${memberlimit}, para usar este bot`, text)
+  Lxa.sendMessage(from, `Los miembros de este grupo son insuficientes ${memberlimit}, para usar este bot bai`, text)
 
   setTimeout(() => {
 Lxa.groupLeave(from) // ur cods
@@ -584,7 +584,7 @@ text: `Gabriel Limdo💗💕💖💕💕💗💕
 
 Hola *${pushname}* 
 
-〘 *GabrielBot* 〙
+〘 *GabrielBotsito uwu* 〙
 ‣ Prefijo:「 ${prefix} 」
 ‣ Yo soy:Gabriel😜 🙏🏿
 ‣ Tiempo encencido: *${kyun(uptime)}*
@@ -763,7 +763,7 @@ contextInfo: {
 }
   }
   Lxa.sendMessage(from, Menu, text, {
-quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "Gabriel Limdo😋😋", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujKKIgYiixbCwxfjr+P/////CABEIADoAUQMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAgMFBAYBAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAADwYAAAAAEo2EoeggYctbsPMX7XIZPycABZWNvLoHTfnjTo4x0c4AAAAAAAf//EAC0QAAMAAgEDAwIDCQAAAAAAAAECAwQRAAUSMRMhImGSFCCRJEBBQlBRUmOx/9oACAEBAAE/AP3dFLsqjW2IA2QB+p5PHvUoJxdy7FU7VJ7iPcgcM6AMxRtKwVjrwT4B4Y2Hdub/ABRXb28K2tE/Q74+Nead7yZV+BHcNbDglSPodcKsp0wIOgf14mLeisyKCFAJII/ipf8A4vCrKFJBAYbH1Hj8kXWdFdpJUD+RywB+0g8z8N4dXtiQgHxlo5STuyy2qbbmXTHxhjt2SZ6I4yISuzy/17IZudWImmKoT0bvH9pkHc+DpAQxbma/bTqUE2hwEAlUO/eQjiXMARsnTUvAX/EZxgS7vtUQIAF03OjXcdSxJnbLS0kPzddbPbsFCOUFQQKBge1dBv8AEjY/JJ1m4ZpJQDfwbYB+0g8yOvXybpZ8eHm21AfTesgRuXrOpUpjzj9ELnf3luWyTe+Tek0L2ZmPkBSx3teX6lW4uTKS0v7Wou9v7huY/VDj+l24sG9K5vLff8GOv7NzEy/wl43WEneWivd3a7g2w3sRzKyGybeqyKnwRAq70AihB5/on//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQIBAT8AR//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQMBAT8AR//Z", "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" } } } })
+quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://images-na.ssl-images-amazon.com/images/I/81eTJkrHrSL.png", "mimetype": "image/jpeg", "caption": "Gabriel Limdo😋😋", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujKKIgYiixbCwxfjr+P/////CABEIADoAUQMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAgMFBAYBAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAADwYAAAAAEo2EoeggYctbsPMX7XIZPycABZWNvLoHTfnjTo4x0c4AAAAAAAf//EAC0QAAMAAgEDAwIDCQAAAAAAAAECAwQRAAUSMRMhImGSFCCRJEBBQlBRUmOx/9oACAEBAAE/AP3dFLsqjW2IA2QB+p5PHvUoJxdy7FU7VJ7iPcgcM6AMxRtKwVjrwT4B4Y2Hdub/ABRXb28K2tE/Q74+Nead7yZV+BHcNbDglSPodcKsp0wIOgf14mLeisyKCFAJII/ipf8A4vCrKFJBAYbH1Hj8kXWdFdpJUD+RywB+0g8z8N4dXtiQgHxlo5STuyy2qbbmXTHxhjt2SZ6I4yISuzy/17IZudWImmKoT0bvH9pkHc+DpAQxbma/bTqUE2hwEAlUO/eQjiXMARsnTUvAX/EZxgS7vtUQIAF03OjXcdSxJnbLS0kPzddbPbsFCOUFQQKBge1dBv8AEjY/JJ1m4ZpJQDfwbYB+0g8yOvXybpZ8eHm21AfTesgRuXrOpUpjzj9ELnf3luWyTe+Tek0L2ZmPkBSx3teX6lW4uTKS0v7Wou9v7huY/VDj+l24sG9K5vLff8GOv7NzEy/wl43WEneWivd3a7g2w3sRzKyGybeqyKnwRAq70AihB5/on//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQIBAT8AR//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQMBAT8AR//Z", "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" } } } })
   break
 
 //--Cek limit user
@@ -877,7 +877,7 @@ Lxa.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.daftarB)
 hasil = `
 
-_Este bot es gratis :)_
+_:)_
 
 *Pulsa :* _${Pulsa}_
 *Dana :* _${Dana}_
@@ -947,7 +947,7 @@ break
   case 'img':
 if (!isRegister) return reply(mess.only.daftarB)
 
-if (args.length < 1) return reply('Ingresa lo que quieres buscar')
+if (args.length < 1) return reply('Pone lo que queres buscar')
 tels = body.slice(5)
 Lxa.updatePresence(from, Presence.composing)
 reply(mess.wait)
@@ -972,7 +972,7 @@ case 'pinterest':
 tels = body.slice(11)
 if (!isRegister) return reply(mess.only.daftarB)
 
-if (args.length < 1) return reply('Ingresa lo que quieres buscar')
+if (args.length < 1) return reply('Pone lo que queres buscar')
 Lxa.updatePresence(from, Presence.composing)
 try {
 data = await fetchJson(`https://api.fdci.se/sosmed/rep.php?gambar=${tels}`, {
@@ -1194,7 +1194,7 @@ case 'cogan':
   uk = ["ulzhang boy","cowok keren","cowo ganteng","cogan","cogan jawa"]
   nk = uk[Math.floor(Math.random() * uk.length)]
   try {
-  data = await fetchJson(`https://api.fdci.se/sosmed/rep.php?gambar=${nk}`, {
+  data = await fetchJson(`https://i.picasion.com/pic90/b59bfec1b6e17430694f154a1e02c078.gif`, {
 method: 'get'
   })
   reply(mess.wait)
@@ -2356,7 +2356,7 @@ case 'ytmp3':
   if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply('Formato de link incorrecto')
   try {
   anu = await fetchJson(`https://api.zeks.xyz/api/ytmp3/2?url=${play}&apikey=${viKey}`)
-  infomp3 = `*Audio!!!*\n‣ Nombre : ${anu.result.title}\n‣ Fuente: ${anu.result.source}\n‣ Tamaño: ${anu.result.size}\n\n_El audio se esta mandando espere, si no llega descargue por el link_\n‣ *link* : ${anu.result.link}`
+  infomp3 = `*Audio!!!*\n‣ Nombre : ${anu.result.title}\n‣ Fuente: ${anu.result.source}\n‣ Tamaño: ${anu.result.size}\n\n_El audio se esta mandando espera, si no llega descarga por el link_\n‣ *link* : ${anu.result.link}`
   buffer = await getBuffer(anu.result.thumb)
   lagu = await getBuffer(anu.result.link)
   Lxa.sendMessage(from, buffer, image, {
@@ -2668,7 +2668,7 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 							})
 							.on('end', function () {
 								console.log('Finish')
-								exec(`webpmux -set exif ${addMetadata('Lexa', 'Mrf.zvx')} ${ran} -o ${ran}`, async (error) => {
+								exec(`webpmux -set exif ${addMetadata('Gabriel', 'uwu')} ${ran} -o ${ran}`, async (error) => {
 									if (error) return reply(mess.error.stick)
 									Lxa.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
 									fs.unlinkSync(media)	
@@ -3066,7 +3066,7 @@ break
 					dtt = body.slice(8)
 					ranm = getRandom('.mp3')
 					dtt.length > 600
-					? reply('Escribe correctamente el texto')
+					? reply('Escribi correctamente el texto')
 					: gtts.save(ranm, dtt, function() {
 						Lxa.sendMessage(from, fs.readFileSync(ranm), audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 						fs.unlinkSync(ranm)
@@ -3163,7 +3163,7 @@ case 'unblock':
 					exec(`wget ${anu.result} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
 						fs.unlinkSync(ranp)
 						if (err) return reply(mess.error.stick)
-						exec(`webpmux -set exif ${addMetadata('Lexa', 'Mrf.zvx')} ${rano} -o ${rano}`, async (error) => {
+						exec(`webpmux -set exif ${addMetadata('Gabriel', 'uwu')} ${rano} -o ${rano}`, async (error) => {
 							if (error) return reply(mess.error.stick)
 							Lxa.sendMessage(from, fs.readFileSync(rano), sticker, {quoted: mek})
 							fs.unlinkSync(rano)
@@ -3392,7 +3392,7 @@ reply(ind.satukos())
 						fs.unlinkSync(medimg)
 						if (err) return reply('No se pudo hacer :(')
 						buffer = fs.readFileSync(ran)
-						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Satan-Bot'})
+						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'GabrielXDD'})
 						fs.unlinkSync(ran)
 					})
 					break
@@ -3443,7 +3443,7 @@ case 'bot':
 case 'verify':
 case 'daftar':
   case 'register':
-if (isRegister) return reply('Tu cuenta ya estaba verificada')
+if (isRegister) return reply('Tu cuenta ya estaba verificada pelotudx')
 const namaUser = `${pushname}`
 const umurUser = `${sender}`
 const serialUser = createSerial(20)
